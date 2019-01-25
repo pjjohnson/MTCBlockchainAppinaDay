@@ -54,7 +54,7 @@ The Blockchain App in a Day is a hands-on workshop where a Microsoft team leads 
 
 7.	Install [PuTTYGen](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) (optional) – tool for creating certificates
 
-8.	Install Git Bash (optional)
+8.	Install [Git Bash](https://gitforwindows.org/) (optional)
 
 9.	Install [GitHub Desktop](https://desktop.github.com/) (optional)
 
@@ -75,13 +75,18 @@ The Blockchain App in a Day is a hands-on workshop where a Microsoft team leads 
 
     
  ## Create an Active Directory Namespace
- For most customers, there are purposeful controls on how identities can be created in their Azure Active Directory namespace.  FOr example, the company Contoso has the Azure AD namespace of contoso.onmicrosoft.com, but it's not possible for someone to  create a new set of test identities in their corporate tenant.  In order to complete the Azure Blockchain Workbench deployment, it is recommended you create a new Active Active Diretory instance under your existing subscription.  It's in this new, test namespace where we'll create the Azure Blockchain Workbench users needed to access deployed applications.  For example, the new Azure AD tenant myabw.onmicrosoft.com is created to support the deployment of Azure Blockchain Workbench.
+ For most customers, there are purposeful controls on how identities can be created in their Azure Active Directory namespace.  For example, the company Contoso has the Azure AD namespace of contoso.onmicrosoft.com, but it's not possible for someone to  create a new set of test identities in their corporate tenant.  In order to complete the Azure Blockchain Workbench deployment, it is recommended you create a new Active Active Diretory instance under your existing subscription.  It's in this new, test namespace where you'll create the Azure Blockchain Workbench users needed to access deployed applications.  For example, the new Azure AD tenant myabw.onmicrosoft.com is created to support the deployment of Azure Blockchain Workbench.
 
- Creating this new namespace ahead of time will expedite your of Azure BLockchain Workbench during the workshop.
+ Creating this new namespace ahead of time will expedite your of Azure Blockchain Workbench during the workshop.
 
  ## Deploy Azure Blockchain Workbench
 The Blockchain App in a Day workshop will use Azure Blockchain Workbench, and each attendee (or attendees from the same company) must have an Azure subscription with the rights to deploy this template.
 
 <b>Deployment will be completed during the Blockchain App in a Day workshop as an instructor-led activity.</b>  Please ensure prior to the workshop you have the rights to deploy Azure Blockchain Workbench.
 
+# Contributing
+This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.microsoft.com.
 
+When you submit a pull request, a CLA-bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repos using our CLA.
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact opencode@microsoft.com with any additional questions or comments.
